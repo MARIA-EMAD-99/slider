@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet" href="./fontawesome-free-6.4.2-web/css/all.min.css">
+</head>
+<body>
+<div class="first">
+    <h2 class="header1">Gallery</h2>
+    <p class="para1">Lorem Ipsum is simply dummy text of the printing and typesetting</p>
+</div>
+<div class="secand">
+    <img src="images/gallery-img-01.jpg" alt="" onmouseover="chanagewidg(event)"  onmouseleave= "returnwidth(event)">
+    <img src="images/gallery-img-02.jpg" alt="" onmouseover="chanagewidg(event)"  onmouseleave= "returnwidth(event)">
+    <img src="images/gallery-img-03.jpg" alt=""  onmouseover="chanagewidg(event) "  onmouseleave= "returnwidth(event)">
+    <img src="images/gallery-img-04.jpg" alt=""  onmouseover="chanagewidg(event)"  onmouseleave= "returnwidth(event)">
+    <img src="images/gallery-img-05.jpg" alt="" onmouseover="chanagewidg(event)"  onmouseleave= "returnwidth(event)">
+    <img src="images/gallery-img-06.jpg" alt=""  onmouseover="chanagewidg(event)"  onmouseleave= "returnwidth(event)">
+    
+</div>
+</div>
+<div class="third">
+    <h2 class="header2">Customer Reviews</h2>
+    <p class="para2">Lorem Ipsum is simply dummy text of the printing and typesetting</p>
+</div>
+<!-- <div class="right" onclick="nextslid()"> <i class="fa-solid fa-chevron-right"></i></div> -->
+ <div class="right" onclick="nextslid()"> <a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a></div> 
+
+<div class="fourth">
+    <div class="section1">
+        <img src="images/profile-3.jpg" id="profile">
+        <h4 class="header3" >STEVE FONSI</h4>
+        <p class="para3" >Web Designer</p>
+        <p class="para4" >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu sem tempor, varius quam at, luctus dui. Mauris magna metus, dapibus nec turpis vel, semper malesuada ante. Idac bibendum scelerisque non non purus. Suspendisse varius nibh non aliquet.</p>
+    </div>
+    <div class="section1">
+        <img src="images/profile-1.jpg" id="profile2">
+        <h4 class="header4" >PAUL MITCHEL</h4>
+        <p class="para5" >Web Designer</p>
+        <p class="para6" >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu sem tempor, varius quam at, luctus dui. Mauris magna metus, dapibus nec turpis vel, semper malesuada ante. Idac bibendum scelerisque non non purus. Suspendisse varius nibh non aliquet.</p>
+    </div>
+    <div class="section1">
+            <img src="images/profile-7.jpg" id="profile3">
+        <h4 class="header5" >DANIEL VEBAR</h4>
+        <p class="para7" >Seo Analyst</p>
+        <p class="para8" >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu sem tempor, varius quam at, luctus dui. Mauris magna metus, dapibus nec turpis vel, semper malesuada ante. Idac bibendum scelerisque non non purus. Suspendisse varius nibh non aliquet.</p>
+    </div>
+</div>
+<!-- <div class="left"> <i class="fa-solid fa-chevron-left"></i></div> -->
+<div class="left"><a class="next" onclick="plusSlides(1, 0)">&#10095;</a</div>
+<script src="myscript.js"></script>
+</body>
+</html>
